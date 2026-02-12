@@ -1,0 +1,58 @@
+{
+  "Motors": [
+    {
+      "name": "Infeed Belt",
+      "SpeedFactor1": 1.0,
+      "SpeedFactor2": 1.0,
+      "SpeedFactor3": 1.0,
+      "SpeedFactor4": 1.0,
+      "SpeedFactor5": 1.0,
+      "SpeedFactor6": 1.0
+    },
+    {
+      "name": "Lower Soil Belt",
+      "SpeedFactor1": 1.0,
+      "SpeedFactor2": 1.0,
+      "SpeedFactor3": 1.0,
+      "SpeedFactor4": 1.0,
+      "SpeedFactor5": 1.0,
+      "SpeedFactor6": 1.0
+    },
+    {
+      "name": "Flat Filler Belt",
+      "SpeedFactor1": 1.0,
+      "SpeedFactor2": 1.0,
+      "SpeedFactor3": 1.0,
+      "SpeedFactor4": 1.0,
+      "SpeedFactor5": 1.0,
+      "SpeedFactor6": 1.0
+    },
+    {
+      "name": "Planting Line",
+      "SpeedFactor1": 1.0,
+      "SpeedFactor2": 1.0,
+      "SpeedFactor3": 1.0,
+      "SpeedFactor4": 1.0,
+      "SpeedFactor5": 1.0,
+      "SpeedFactor6": 1.0
+    },
+    {
+      "name": "Motor 5",
+      "SpeedFactor1": 1.0,
+      "SpeedFactor2": 1.0,
+      "SpeedFactor3": 1.0,
+      "SpeedFactor4": 1.0,
+      "SpeedFactor5": 1.0,
+      "SpeedFactor6": 1.0
+    },
+    {
+      "name": "Motor 6",
+      "SpeedFactor1": 1.0,
+      "SpeedFactor2": 1.0,
+      "SpeedFactor3": 1.0,
+      "SpeedFactor4": 1.0,
+      "SpeedFactor5": 1.0,
+      "SpeedFactor6": 1.0
+    }
+  ]
+}

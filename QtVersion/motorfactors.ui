@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MotorFactors</class>
+ <widget class="QDialog" name="MotorFactors">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>24</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Motor Speed Calibration Factors</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="sizeAdjustPolicy">
+        <enum>QAbstractScrollArea::SizeAdjustPolicy::AdjustToContents</enum>
+       </property>
+       <property name="selectionMode">
+        <enum>QAbstractItemView::SelectionMode::SingleSelection</enum>
+       </property>
+       <property name="rowCount">
+        <number>6</number>
+       </property>
+       <property name="columnCount">
+        <number>6</number>
+       </property>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>125</number>
+       </attribute>
+       <attribute name="horizontalHeaderStretchLastSection">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="verticalHeaderDefaultSectionSize">
+        <number>60</number>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>Infeed Belt</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>Lower Soil Belt</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>Flat Filler Belt</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>Planting Line</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>Motor 5</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>Motor 6</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>Speed 1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Speed 2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Speed 3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Speed 4</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Speed 5</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Speed 6</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDialogButtonBox" name="buttonBox">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <property name="standardButtons">
+        <set>QDialogButtonBox::StandardButton::Cancel|QDialogButtonBox::StandardButton::Save</set>
+       </property>
+       <property name="centerButtons">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>MotorFactors</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>MotorFactors</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

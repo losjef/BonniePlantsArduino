@@ -1,0 +1,58 @@
+{
+    "Trays": [
+        {
+            "name": "6-06",
+            "TimeFactor1": 0.5,
+            "TimeFactor2": 0.4,
+            "TimeFactor3": 0.3,
+            "TimeFactor4": 0.2,
+            "TimeFactor5": 0.1,
+            "TimeFactor6": 0.05
+        },
+        {
+            "name": "3.5",
+            "TimeFactor1": 0.9,
+            "TimeFactor2": 0.8,
+            "TimeFactor3": 0.7,
+            "TimeFactor4": 0.6,
+            "TimeFactor5": 0.5,
+            "TimeFactor6": 0.4
+        },
+        {
+            "name": "4.5",
+            "TimeFactor1": 1.0,
+            "TimeFactor2": 1.0,
+            "TimeFactor3": 1.0,
+            "TimeFactor4": 1.0,
+            "TimeFactor5": 1.0,
+            "TimeFactor6": 1.0
+        },
+        {
+            "name": "5",
+            "TimeFactor1": 1.0,
+            "TimeFactor2": 1.0,
+            "TimeFactor3": 1.0,
+            "TimeFactor4": 1.0,
+            "TimeFactor5": 1.0,
+            "TimeFactor6": 1.0
+        },
+		{
+            "name": "Gallon",
+            "TimeFactor1": 1.0,
+            "TimeFactor2": 1.0,
+            "TimeFactor3": 1.0,
+            "TimeFactor4": 1.0,
+            "TimeFactor5": 1.0,
+            "TimeFactor6": 1.0
+        },
+		{
+            "name": "8",
+            "TimeFactor1": 1.0,
+            "TimeFactor2": 1.0,
+            "TimeFactor3": 1.0,
+            "TimeFactor4": 1.0,
+            "TimeFactor5": 1.0,
+            "TimeFactor6": 1.0
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "COMPorts": [
+        {
+            "name": "OutputCom",
+            "Port": "COM4"
+        },
+        {
+            "name": "InputCom",
+            "Port": "COM5"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+  "Factors": [
+    {
+      "name": "6-06",
+      "SpeedFactor1": 1.0,
+      "SpeedFactor2": 1.0,
+      "SpeedFactor3": 1.0,
+      "SpeedFactor4": 1.0,
+      "SpeedFactor5": 1.0,
+      "SpeedFactor6": 1.0
+    },
+    {
+      "name": "3.5",
+      "SpeedFactor1": 0.2,
+      "SpeedFactor2": 0.4,
+      "SpeedFactor3": 0.5,
+      "SpeedFactor4": 0.6,
+      "SpeedFactor5": 0.8,
+      "SpeedFactor6": 1.0
+    },
+    {
+      "name": "4.5",
+      "SpeedFactor1": 1.0,
+      "SpeedFactor2": 1.0,
+      "SpeedFactor3": 1.0,
+      "SpeedFactor4": 1.0,
+      "SpeedFactor5": 1.0,
+      "SpeedFactor6": 1.0
+    },
+    {
+      "name": "5",
+      "SpeedFactor1": 1.0,
+      "SpeedFactor2": 1.0,
+      "SpeedFactor3": 1.0,
+      "SpeedFactor4": 1.0,
+      "SpeedFactor5": 1.0,
+      "SpeedFactor6": 1.0
+    },
+    {
+      "name": "Gallon",
+      "SpeedFactor1": 1.0,
+      "SpeedFactor2": 1.0,
+      "SpeedFactor3": 1.0,
+      "SpeedFactor4": 1.0,
+      "SpeedFactor5": 1.0,
+      "SpeedFactor6": 1.0
+    },
+    {
+      "name": "8",
+      "SpeedFactor1": 1.0,
+      "SpeedFactor2": 1.0,
+      "SpeedFactor3": 1.0,
+      "SpeedFactor4": 1.0,
+      "SpeedFactor5": 1.0,
+      "SpeedFactor6": 1.0
+    }
+  ]
+}

@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::WindowModality::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1112</width>
+    <height>802</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>802</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Bonnie Plants</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>images/Bonnie.png</normaloff>images/Bonnie.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: &quot;black&quot;</string>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,4,1">
+    <item>
+     <widget class="QFrame" name="frameSpeedButtons">
+      <property name="minimumSize">
+       <size>
+        <width>150</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="pushButtonSpeed1">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{background-color: red}
+QPushButton {
+    border: 2px solid grey;
+}
+</string>
+         </property>
+         <property name="text">
+          <string>Speed 1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonSpeed2">
+         <property name="font">
+          <font>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{background-color: orange}
+QPushButton {
+    border: 2px solid grey;
+}
+</string>
+         </property>
+         <property name="text">
+          <string>Speed 2</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonSpeed3">
+         <property name="font">
+          <font>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{background-color: yellow}
+QPushButton {
+    border: 2px solid grey;
+}</string>
+         </property>
+         <property name="text">
+          <string>Speed 3</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonSpeed4">
+         <property name="font">
+          <font>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{background-color: green}
+QPushButton {
+    border: 2px solid grey;
+}</string>
+         </property>
+         <property name="text">
+          <string>Speed 4</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonSpeed5">
+         <property name="font">
+          <font>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{background-color: blue}
+QPushButton {
+    border: 2px solid grey;
+}</string>
+         </property>
+         <property name="text">
+          <string>Speed 5</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonSpeed6">
+         <property name="font">
+          <font>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{background-color: indigo}
+QPushButton {
+    border: 2px solid grey;
+}</string>
+         </property>
+         <property name="text">
+          <string>Speed 6</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayoutStartStop">
+        <property name="spacing">
+         <number>50</number>
+        </property>
+        <property name="leftMargin">
+         <number>100</number>
+        </property>
+        <property name="rightMargin">
+         <number>100</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="pushButtonStop">
+          <property name="font">
+           <font>
+            <pointsize>28</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{background-color: red}
+QPushButton {
+    border: 2px solid grey;
+}</string>
+          </property>
+          <property name="text">
+           <string>STOP</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButtonStart">
+          <property name="font">
+           <font>
+            <pointsize>28</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{background-color: rgb(0, 255, 0)}
+QPushButton {
+    border: 2px solid grey;
+}</string>
+          </property>
+          <property name="text">
+           <string>START</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButtonStartTimer">
+          <property name="font">
+           <font>
+            <pointsize>28</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{background-color: rgb(150, 255, 50)}
+QPushButton {
+    border: 2px solid grey;
+}</string>
+          </property>
+          <property name="text">
+           <string>Start Timer</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QFrame" name="frameDisplay">
+        <property name="font">
+         <font>
+          <pointsize>1</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: white</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayoutOutput" stretch="1,8,1,2,1,1">
+         <property name="spacing">
+          <number>10</number>
+         </property>
+         <property name="leftMargin">
+          <number>100</number>
+         </property>
+         <property name="topMargin">
+          <number>5</number>
+         </property>
+         <property name="rightMargin">
+          <number>100</number>
+         </property>
+         <property name="bottomMargin">
+          <number>70</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: white</string>
+           </property>
+           <property name="text">
+            <string> Timer </string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignmentFlag::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_2">
+           <property name="frameShape">
+            <enum>QFrame::Shape::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Shadow::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="5,0">
+            <item>
+             <widget class="QLabel" name="labelTimer">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <family>Arial</family>
+                <pointsize>210</pointsize>
+                <bold>true</bold>
+                <kerning>false</kerning>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: white</string>
+              </property>
+              <property name="lineWidth">
+               <number>0</number>
+              </property>
+              <property name="text">
+               <string>60</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignCenter</set>
+              </property>
+              <property name="margin">
+               <number>-10</number>
+              </property>
+              <property name="indent">
+               <number>0</number>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QFrame" name="frame_3">
+              <property name="minimumSize">
+               <size>
+                <width>100</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QFrame {
+    border: 1px solid grey;
+}</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Shape::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Shadow::Raised</enum>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_4" stretch="1,1,1,1,1,1">
+               <property name="topMargin">
+                <number>10</number>
+               </property>
+               <property name="bottomMargin">
+                <number>20</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_4">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>57</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>12</pointsize>
+                  </font>
+                 </property>
+                 <property name="mouseTracking">
+                  <bool>true</bool>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Shadow::Raised</enum>
+                 </property>
+                 <property name="lineWidth">
+                  <number>0</number>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Adjust&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Timer&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButtonPlus5">
+                 <property name="font">
+                  <font>
+                   <pointsize>16</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{background-color: lightgrey}
+QPushButton {
+    border: 2px solid grey;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>+5</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButtonPlus1">
+                 <property name="font">
+                  <font>
+                   <pointsize>16</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{background-color: lightgrey}
+QPushButton {
+    border: 2px solid grey;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>+1</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButtonSaveTimer">
+                 <property name="font">
+                  <font>
+                   <pointsize>16</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{background-color: lightgrey}
+QPushButton {
+    border: 2px solid grey;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Save</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButtonMinus1">
+                 <property name="font">
+                  <font>
+                   <pointsize>16</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{background-color: lightgrey}
+QPushButton {
+    border: 2px solid grey;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>-1</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButtonMinus5">
+                 <property name="font">
+                  <font>
+                   <pointsize>16</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{background-color: lightgrey}
+QPushButton {
+    border: 2px solid grey;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>-5</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="font">
+            <font>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: white</string>
+           </property>
+           <property name="text">
+            <string>Current Run - Number of Trays</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignmentFlag::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLCDNumber" name="lcdCurrentCounter">
+           <property name="font">
+            <font>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: white</string>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="font">
+            <font>
+             <pointsize>14</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: white</string>
+           </property>
+           <property name="text">
+            <string>Total Number of Trays</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignmentFlag::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLCDNumber" name="lcdTotalCounter">
+           <property name="font">
+            <font>
+             <pointsize>8</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: white</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="minimumSize">
+       <size>
+        <width>150</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QPushButton" name="pushButtonTray1">
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{background-color: lightgrey}
+QPushButton {
+    border: 2px solid grey;
+}</string>
+         </property>
+         <property name="text">
+          <string>6-06 Tray</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonTray2">
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{background-color: lightgrey}
+QPushButton {
+    border: 2px solid grey;
+}</string>
+         </property>
+         <property name="text">
+          <string>3.5&quot; Tray</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonTray3">
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{background-color: lightgrey}
+QPushButton {
+    border: 2px solid grey;
+}</string>
+         </property>
+         <property name="text">
+          <string>4.5&quot; Tray</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonTray4">
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{background-color: lightgrey}
+QPushButton {
+    border: 2px solid grey;
+}</string>
+         </property>
+         <property name="text">
+          <string>5&quot; Tray</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonTray5">
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{background-color: lightgrey}
+QPushButton {
+    border: 2px solid grey;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gallon</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonTray6">
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{background-color: lightgrey}
+QPushButton {
+    border: 2px solid grey;
+}</string>
+         </property>
+         <property name="text">
+          <string>8&quot; Tray</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+   <zorder>frame</zorder>
+   <zorder>frameSpeedButtons</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1112</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <widget class="QMenu" name="menuEdit">
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionUpdate_Motor_Factors"/>
+    <addaction name="actionUpdate_Tray_Timing"/>
+    <addaction name="actionReset_Total_Counter"/>
+    <addaction name="actionUpdate_COM_Ports"/>
+    <addaction name="actionUpdate_Upper_Soil_Belt_Factors"/>
+    <addaction name="separator"/>
+    <addaction name="actionView_Production_Log"/>
+   </widget>
+   <addaction name="menuEdit"/>
+  </widget>
+  <action name="actionUpdate_Motor_Factors">
+   <property name="text">
+    <string>Update Motor Factors</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionReset_Total_Counter">
+   <property name="text">
+    <string>Reset Total Counter</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionUpdate_Tray_Timing">
+   <property name="text">
+    <string>Update Tray Timing</string>
+   </property>
+  </action>
+  <action name="actionUpdate_COM_Ports">
+   <property name="text">
+    <string>Update COM Ports</string>
+   </property>
+  </action>
+  <action name="actionUpdate_Upper_Soil_Belt_Factors">
+   <property name="text">
+    <string>Update Upper Soil Belt Factors</string>
+   </property>
+  </action>
+  <action name="actionView_Production_Log">
+   <property name="text">
+    <string>View Production Log</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
